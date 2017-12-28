@@ -1,6 +1,4 @@
-// dem objekt bzw der variablen einen namen gebene, damit du es im JS ansprechen kannst
-
-var myData = {
+{
     "calories": [
         {
             "unit": "kcal",
@@ -33,4 +31,4 @@ var myData = {
             "image": "/img/calories/lasagne.png"
         }
     ]
-};
+}

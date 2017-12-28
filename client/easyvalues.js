@@ -3,9 +3,9 @@
 $(document).ready(function() {
     $("button[name='submit']").click(getResults);
 
-    // zu testzwecken das JSOn auf der console ausgeben - es wird der inhalt vom JSON formatiert mit 4 zeichen einrückungen
-    // angezeigt
-    console.log("das geladene JSON File: ", JSON.stringify(myData, null, 4));
+    $.getJSON("categoriesData.json", function( my_json_data ) {
+        console.log("data from categoriesData.json = ", JSON.stringify(my_json_data, null, 4));
+    });
 });
 
 /*
